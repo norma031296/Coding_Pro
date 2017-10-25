@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseViewController.h
 //  Coding_Norma
 //
 //  Created by 0390 on 2017/10/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseViewController : UIViewController
 
 @end
-
