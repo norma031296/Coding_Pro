@@ -7,18 +7,26 @@
 //
 
 #import "FilterMenuCell.h"
+@interface FilterMenuCell ()
+
+@end
 
 @implementation FilterMenuCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier HiddenSepLine : (BOOL)isHidden
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        [self creatUI];
+    }
+    return self;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (void)creatUI
+{
+    
 }
+
+
 
 @end

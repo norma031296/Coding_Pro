@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9C949DA2F0F6A13705D5D2 /* libPods-Coding_Norma.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A33B64D43D930BA6D8B61 /* libPods-Coding_Norma.a */; };
 		9930B9FA1F9ED5F100BD9712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930B9F91F9ED5F100BD9712 /* AppDelegate.m */; };
-		9930B9FD1F9ED5F100BD9712 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930B9FC1F9ED5F100BD9712 /* ViewController.m */; };
 		9930BA001F9ED5F100BD9712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9930B9FE1F9ED5F100BD9712 /* Main.storyboard */; };
 		9930BA021F9ED5F100BD9712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9930BA011F9ED5F100BD9712 /* Assets.xcassets */; };
 		9930BA051F9ED5F100BD9712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9930BA031F9ED5F100BD9712 /* LaunchScreen.storyboard */; };
 		9930BA081F9ED5F100BD9712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA071F9ED5F100BD9712 /* main.m */; };
 		9930BA121F9ED5F200BD9712 /* Coding_NormaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA111F9ED5F200BD9712 /* Coding_NormaTests.m */; };
 		9930BA1D1F9ED5F200BD9712 /* Coding_NormaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA1C1F9ED5F200BD9712 /* Coding_NormaUITests.m */; };
+		9930BA321F9EDAD600BD9712 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9930BA311F9EDAD600BD9712 /* ObjectiveGit.framework */; };
+		9930BA6D1F9F0E5C00BD9712 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA6C1F9F0E5C00BD9712 /* BaseViewController.m */; };
+		9930BA701F9F0E8500BD9712 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA6F1F9F0E8500BD9712 /* BaseNavigationController.m */; };
+		9930BA731F9F0F5400BD9712 /* Project_RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA721F9F0F5400BD9712 /* Project_RootViewController.m */; };
+		9930BA761F9F12F900BD9712 /* FliterMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA751F9F12F900BD9712 /* FliterMenu.m */; };
+		9930BA7B1F9F274E00BD9712 /* FilterMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA7A1F9F274E00BD9712 /* FilterMenuCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A86E5A93D16CAF3CC6FB91A /* Pods-Coding_Norma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coding_Norma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coding_Norma/Pods-Coding_Norma.debug.xcconfig"; sourceTree = "<group>"; };
+		3B2A33B64D43D930BA6D8B61 /* libPods-Coding_Norma.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Coding_Norma.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9800AC0DFA2ABF5D8B23E2DC /* Pods-Coding_Norma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coding_Norma.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coding_Norma/Pods-Coding_Norma.release.xcconfig"; sourceTree = "<group>"; };
 		9930B9F51F9ED5F100BD9712 /* Coding_Norma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coding_Norma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9930B9F81F9ED5F100BD9712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9930B9F91F9ED5F100BD9712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9930B9FB1F9ED5F100BD9712 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9930B9FC1F9ED5F100BD9712 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9930B9FF1F9ED5F100BD9712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9930BA011F9ED5F100BD9712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9930BA041F9ED5F100BD9712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,18 @@
 		9930BA181F9ED5F200BD9712 /* Coding_NormaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coding_NormaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9930BA1C1F9ED5F200BD9712 /* Coding_NormaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coding_NormaUITests.m; sourceTree = "<group>"; };
 		9930BA1E1F9ED5F200BD9712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9930BA311F9EDAD600BD9712 /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/iOS/ObjectiveGit.framework; sourceTree = "<group>"; };
+		9930BA5F1F9EE00B00BD9712 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9930BA6B1F9F0E5C00BD9712 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9930BA6C1F9F0E5C00BD9712 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9930BA6E1F9F0E8500BD9712 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		9930BA6F1F9F0E8500BD9712 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		9930BA711F9F0F5400BD9712 /* Project_RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project_RootViewController.h; sourceTree = "<group>"; };
+		9930BA721F9F0F5400BD9712 /* Project_RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_RootViewController.m; sourceTree = "<group>"; };
+		9930BA741F9F12F900BD9712 /* FliterMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FliterMenu.h; sourceTree = "<group>"; };
+		9930BA751F9F12F900BD9712 /* FliterMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FliterMenu.m; sourceTree = "<group>"; };
+		9930BA791F9F274E00BD9712 /* FilterMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterMenuCell.h; sourceTree = "<group>"; };
+		9930BA7A1F9F274E00BD9712 /* FilterMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterMenuCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9C949DA2F0F6A13705D5D2 /* libPods-Coding_Norma.a in Frameworks */,
+				9930BA321F9EDAD600BD9712 /* ObjectiveGit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38B503622DCD3B7EB5A6324E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A86E5A93D16CAF3CC6FB91A /* Pods-Coding_Norma.debug.xcconfig */,
+				9800AC0DFA2ABF5D8B23E2DC /* Pods-Coding_Norma.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		775D0D28A8F4FA422F84B580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9930BA311F9EDAD600BD9712 /* ObjectiveGit.framework */,
+				3B2A33B64D43D930BA6D8B61 /* libPods-Coding_Norma.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9930B9EC1F9ED5F100BD9712 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				9930BA101F9ED5F200BD9712 /* Coding_NormaTests */,
 				9930BA1B1F9ED5F200BD9712 /* Coding_NormaUITests */,
 				9930B9F61F9ED5F100BD9712 /* Products */,
+				38B503622DCD3B7EB5A6324E /* Pods */,
+				775D0D28A8F4FA422F84B580 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +142,13 @@
 		9930B9F71F9ED5F100BD9712 /* Coding_Norma */ = {
 			isa = PBXGroup;
 			children = (
+				9930BA621F9EE20F00BD9712 /* Models */,
+				9930BA611F9EE20300BD9712 /* Controllers */,
+				9930BA601F9EE1F700BD9712 /* Views */,
+				9930BA7C1F9F2C1A00BD9712 /* Vendor */,
+				9930BA5F1F9EE00B00BD9712 /* PrefixHeader.pch */,
 				9930B9F81F9ED5F100BD9712 /* AppDelegate.h */,
 				9930B9F91F9ED5F100BD9712 /* AppDelegate.m */,
-				9930B9FB1F9ED5F100BD9712 /* ViewController.h */,
-				9930B9FC1F9ED5F100BD9712 /* ViewController.m */,
 				9930B9FE1F9ED5F100BD9712 /* Main.storyboard */,
 				9930BA011F9ED5F100BD9712 /* Assets.xcassets */,
 				9930BA031F9ED5F100BD9712 /* LaunchScreen.storyboard */,
@@ -132,6 +176,60 @@
 			path = Coding_NormaUITests;
 			sourceTree = "<group>";
 		};
+		9930BA601F9EE1F700BD9712 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9930BA781F9F26FD00BD9712 /* Project */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9930BA611F9EE20300BD9712 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9930BA6A1F9F0E4D00BD9712 /* RootViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9930BA621F9EE20F00BD9712 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9930BA6A1F9F0E4D00BD9712 /* RootViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9930BA6B1F9F0E5C00BD9712 /* BaseViewController.h */,
+				9930BA6C1F9F0E5C00BD9712 /* BaseViewController.m */,
+				9930BA6E1F9F0E8500BD9712 /* BaseNavigationController.h */,
+				9930BA6F1F9F0E8500BD9712 /* BaseNavigationController.m */,
+				9930BA711F9F0F5400BD9712 /* Project_RootViewController.h */,
+				9930BA721F9F0F5400BD9712 /* Project_RootViewController.m */,
+			);
+			path = RootViewControllers;
+			sourceTree = "<group>";
+		};
+		9930BA781F9F26FD00BD9712 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				9930BA741F9F12F900BD9712 /* FliterMenu.h */,
+				9930BA751F9F12F900BD9712 /* FliterMenu.m */,
+				9930BA791F9F274E00BD9712 /* FilterMenuCell.h */,
+				9930BA7A1F9F274E00BD9712 /* FilterMenuCell.m */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		9930BA7C1F9F2C1A00BD9712 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +237,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9930BA211F9ED5F200BD9712 /* Build configuration list for PBXNativeTarget "Coding_Norma" */;
 			buildPhases = (
+				33D42C1B8408EDCB4FA7C469 /* [CP] Check Pods Manifest.lock */,
 				9930B9F11F9ED5F100BD9712 /* Sources */,
 				9930B9F21F9ED5F100BD9712 /* Frameworks */,
 				9930B9F31F9ED5F100BD9712 /* Resources */,
+				627FFDB95016C81DC6BDA7F9 /* [CP] Embed Pods Frameworks */,
+				740A5B06E3A09BBAAA1F0CA9 /* [CP] Copy Pods Resources */,
+				9930BA331F9EDAE200BD9712 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -260,14 +362,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33D42C1B8408EDCB4FA7C469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coding_Norma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		627FFDB95016C81DC6BDA7F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coding_Norma/Pods-Coding_Norma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740A5B06E3A09BBAAA1F0CA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Coding_Norma/Pods-Coding_Norma-resources.sh",
+				"${PODS_ROOT}/FontAwesome+iOS/Resources/FontAwesome.ttf",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/UMSocialSDKResourcesNew.bundle",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMSCommentDetailController.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMSCommentInputController.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMSCommentInputControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMShareEditViewController.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMShareEditViewControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMSLoginViewController.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMSnsAccountViewController.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/SocialSDKXib/UMSShareListController.xib",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/en.lproj",
+				"${PODS_ROOT}/UMengSocial/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/zh-Hans.lproj",
+				"${PODS_ROOT}/evernote-cloud-sdk-ios/ENSDKResources.bundle",
+				"${PODS_ROOT}/iVersion/iVersion/iVersion.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coding_Norma/Pods-Coding_Norma-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9930BA331F9EDAE200BD9712 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectiveGit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9930B9F11F9ED5F100BD9712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9930B9FD1F9ED5F100BD9712 /* ViewController.m in Sources */,
+				9930BA7B1F9F274E00BD9712 /* FilterMenuCell.m in Sources */,
+				9930BA701F9F0E8500BD9712 /* BaseNavigationController.m in Sources */,
 				9930BA081F9ED5F100BD9712 /* main.m in Sources */,
+				9930BA761F9F12F900BD9712 /* FliterMenu.m in Sources */,
+				9930BA6D1F9F0E5C00BD9712 /* BaseViewController.m in Sources */,
 				9930B9FA1F9ED5F100BD9712 /* AppDelegate.m in Sources */,
+				9930BA731F9F0F5400BD9712 /* Project_RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +616,51 @@
 		};
 		9930BA221F9ED5F200BD9712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A86E5A93D16CAF3CC6FB91A /* Pods-Coding_Norma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEFZHDF2RW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = Coding_Norma/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/APParallaxHeader\"",
+					"\"${PODS_ROOT}/Headers/Public/BlocksKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FLEX\"",
+					"\"${PODS_ROOT}/Headers/Public/FontAwesome+iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/JazzHands\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MMMarkdown\"",
+					"\"${PODS_ROOT}/Headers/Public/MarqueeLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/NYXImagesKit\"",
+					"\"${PODS_ROOT}/Headers/Public/POP+MCAnimate\"",
+					"\"${PODS_ROOT}/Headers/Public/PPiAwesomeButton\"",
+					"\"${PODS_ROOT}/Headers/Public/RBBAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/RegexKitLite-NoWarning\"",
+					"\"${PODS_ROOT}/Headers/Public/SDAutoLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/SDCAlertView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDCAutoLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/SSKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/TMCache\"",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"\"${PODS_ROOT}/Headers/Public/TTTAttributedLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/UIImage+BlurredFrame\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengSocial\"",
+					"\"${PODS_ROOT}/Headers/Public/evernote-cloud-sdk-ios\"",
+					"\"${PODS_ROOT}/Headers/Public/hpple\"",
+					"\"${PODS_ROOT}/Headers/Public/iVersion\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"$(SRCROOT)/Carthage/Build/iOS/ObjectiveGit.framework/Headers/",
+				);
 				INFOPLIST_FILE = Coding_Norma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "normaPro.Coding-Norma";
@@ -441,9 +671,51 @@
 		};
 		9930BA231F9ED5F200BD9712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9800AC0DFA2ABF5D8B23E2DC /* Pods-Coding_Norma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEFZHDF2RW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREFIX_HEADER = Coding_Norma/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/APParallaxHeader\"",
+					"\"${PODS_ROOT}/Headers/Public/BlocksKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FLEX\"",
+					"\"${PODS_ROOT}/Headers/Public/FontAwesome+iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/JazzHands\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MMMarkdown\"",
+					"\"${PODS_ROOT}/Headers/Public/MarqueeLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/NYXImagesKit\"",
+					"\"${PODS_ROOT}/Headers/Public/POP+MCAnimate\"",
+					"\"${PODS_ROOT}/Headers/Public/PPiAwesomeButton\"",
+					"\"${PODS_ROOT}/Headers/Public/RBBAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/RegexKitLite-NoWarning\"",
+					"\"${PODS_ROOT}/Headers/Public/SDAutoLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/SDCAlertView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDCAutoLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/SSKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/TMCache\"",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"\"${PODS_ROOT}/Headers/Public/TTTAttributedLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/UIImage+BlurredFrame\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengSocial\"",
+					"\"${PODS_ROOT}/Headers/Public/evernote-cloud-sdk-ios\"",
+					"\"${PODS_ROOT}/Headers/Public/hpple\"",
+					"\"${PODS_ROOT}/Headers/Public/iVersion\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"$(SRCROOT)/Carthage/Build/iOS/ObjectiveGit.framework/Headers/",
+				);
 				INFOPLIST_FILE = Coding_Norma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "normaPro.Coding-Norma";

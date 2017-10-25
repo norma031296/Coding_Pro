@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+    {
+      "name" : "ObjectiveGit",
+      "hash" : "b1488d336d33fb453968e3d59b1d9da7d1afbbfed7a44e0cbe0e790b9b174802"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.12.0",
+  "iOS" : [
+    {
+      "name" : "ObjectiveGit",
+      "hash" : "a3d39bfd1a05ec34406fe0d69404af4081d2fe0f2d77958963eedb8653611224"
+    }
+  ]
+}
