@@ -33,13 +33,23 @@
 //#import <ReactiveCocoa/ReactiveCocoa.h>
 //#import <ReactiveCocoa/RACEXTScope.h>
 //#import "UIImageView+WebCache.h"
-//#import <Masonry/Masonry.h>
+#import <Masonry/Masonry.h>
 //#import "UIView+SDAutoLayout.h"
 //#import "UITableView+SDAutoTableViewCellHeight.h"
 //
 //#import "BaseNavigationController.h"
 //#import "BaseViewController.h"
 
+
+#import "XWComponentView.h"
+#import "XWComponentBase.h"
+#import "XWReuseDataBase.h"
+#import "XWHeaderReuseDataBase.h"
+#import "XWCollectionviewHeaderClear.h"
+#import "XWCollectionViewFooterClear.h"
+#import "UIView+XWExt.h"
+#import "XWCollectionView.h"
+#import "XWCollectionViewFlowLayout.h"
 #endif
 
 #define SD_WEBP

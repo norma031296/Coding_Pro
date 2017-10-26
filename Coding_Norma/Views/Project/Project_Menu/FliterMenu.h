@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger,FliterMenuType){
     FliterMenuTypeFollow,
     FliterMenuTypeCollect,
     FliterMenuTypeProjectSquare
-}
+};
 
 @interface FliterMenu : UIView
 

@@ -19,8 +19,21 @@
 		9930BA6D1F9F0E5C00BD9712 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA6C1F9F0E5C00BD9712 /* BaseViewController.m */; };
 		9930BA701F9F0E8500BD9712 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA6F1F9F0E8500BD9712 /* BaseNavigationController.m */; };
 		9930BA731F9F0F5400BD9712 /* Project_RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA721F9F0F5400BD9712 /* Project_RootViewController.m */; };
-		9930BA761F9F12F900BD9712 /* FliterMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA751F9F12F900BD9712 /* FliterMenu.m */; };
-		9930BA7B1F9F274E00BD9712 /* FilterMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9930BA7A1F9F274E00BD9712 /* FilterMenuCell.m */; };
+		99BE51091FA1D08F00FF9727 /* XWCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50F01FA1D01A00FF9727 /* XWCollectionReusableView.m */; };
+		99BE510A1FA1D09100FF9727 /* XWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50F21FA1D01A00FF9727 /* XWCollectionView.m */; };
+		99BE510B1FA1D09400FF9727 /* XWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50F41FA1D01A00FF9727 /* XWCollectionViewCell.m */; };
+		99BE510C1FA1D09700FF9727 /* XWCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50F61FA1D01A00FF9727 /* XWCollectionViewFlowLayout.m */; };
+		99BE510D1FA1D09B00FF9727 /* XWCollectionViewFooterClear.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50F81FA1D01A00FF9727 /* XWCollectionViewFooterClear.m */; };
+		99BE510E1FA1D09C00FF9727 /* XWCollectionViewFooterNoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50FA1FA1D01A00FF9727 /* XWCollectionViewFooterNoneData.m */; };
+		99BE510F1FA1D09E00FF9727 /* XWCollectionviewHeaderClear.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50FC1FA1D01A00FF9727 /* XWCollectionviewHeaderClear.m */; };
+		99BE51101FA1D09F00FF9727 /* XWCollectionViewHeaderNoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE50FE1FA1D01A00FF9727 /* XWCollectionViewHeaderNoneData.m */; };
+		99BE51111FA1D0A000FF9727 /* XWComponentBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE51001FA1D01A00FF9727 /* XWComponentBase.m */; };
+		99BE51121FA1D0A200FF9727 /* XWComponentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE51021FA1D01A00FF9727 /* XWComponentView.m */; };
+		99BE51131FA1D0A300FF9727 /* XWDecorationViewClear.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE51041FA1D01A00FF9727 /* XWDecorationViewClear.m */; };
+		99BE51141FA1D0A400FF9727 /* XWHeaderReuseDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE51061FA1D01A00FF9727 /* XWHeaderReuseDataBase.m */; };
+		99BE51151FA1D0A500FF9727 /* XWReuseDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE51081FA1D01A00FF9727 /* XWReuseDataBase.m */; };
+		99BE511F1FA1DF8F00FF9727 /* UIView+XWExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE511E1FA1DD4B00FF9727 /* UIView+XWExt.m */; };
+		99BE51201FA1DF9100FF9727 /* UIView+XWCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE511C1FA1DD4B00FF9727 /* UIView+XWCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,10 +79,38 @@
 		9930BA6F1F9F0E8500BD9712 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		9930BA711F9F0F5400BD9712 /* Project_RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project_RootViewController.h; sourceTree = "<group>"; };
 		9930BA721F9F0F5400BD9712 /* Project_RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_RootViewController.m; sourceTree = "<group>"; };
-		9930BA741F9F12F900BD9712 /* FliterMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FliterMenu.h; sourceTree = "<group>"; };
-		9930BA751F9F12F900BD9712 /* FliterMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FliterMenu.m; sourceTree = "<group>"; };
-		9930BA791F9F274E00BD9712 /* FilterMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterMenuCell.h; sourceTree = "<group>"; };
-		9930BA7A1F9F274E00BD9712 /* FilterMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterMenuCell.m; sourceTree = "<group>"; };
+		99BE50EF1FA1D01A00FF9727 /* XWCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionReusableView.h; sourceTree = "<group>"; };
+		99BE50F01FA1D01A00FF9727 /* XWCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionReusableView.m; sourceTree = "<group>"; };
+		99BE50F11FA1D01A00FF9727 /* XWCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionView.h; sourceTree = "<group>"; };
+		99BE50F21FA1D01A00FF9727 /* XWCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionView.m; sourceTree = "<group>"; };
+		99BE50F31FA1D01A00FF9727 /* XWCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionViewCell.h; sourceTree = "<group>"; };
+		99BE50F41FA1D01A00FF9727 /* XWCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionViewCell.m; sourceTree = "<group>"; };
+		99BE50F51FA1D01A00FF9727 /* XWCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		99BE50F61FA1D01A00FF9727 /* XWCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		99BE50F71FA1D01A00FF9727 /* XWCollectionViewFooterClear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionViewFooterClear.h; sourceTree = "<group>"; };
+		99BE50F81FA1D01A00FF9727 /* XWCollectionViewFooterClear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionViewFooterClear.m; sourceTree = "<group>"; };
+		99BE50F91FA1D01A00FF9727 /* XWCollectionViewFooterNoneData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionViewFooterNoneData.h; sourceTree = "<group>"; };
+		99BE50FA1FA1D01A00FF9727 /* XWCollectionViewFooterNoneData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionViewFooterNoneData.m; sourceTree = "<group>"; };
+		99BE50FB1FA1D01A00FF9727 /* XWCollectionviewHeaderClear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionviewHeaderClear.h; sourceTree = "<group>"; };
+		99BE50FC1FA1D01A00FF9727 /* XWCollectionviewHeaderClear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionviewHeaderClear.m; sourceTree = "<group>"; };
+		99BE50FD1FA1D01A00FF9727 /* XWCollectionViewHeaderNoneData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCollectionViewHeaderNoneData.h; sourceTree = "<group>"; };
+		99BE50FE1FA1D01A00FF9727 /* XWCollectionViewHeaderNoneData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCollectionViewHeaderNoneData.m; sourceTree = "<group>"; };
+		99BE50FF1FA1D01A00FF9727 /* XWComponentBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWComponentBase.h; sourceTree = "<group>"; };
+		99BE51001FA1D01A00FF9727 /* XWComponentBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWComponentBase.m; sourceTree = "<group>"; };
+		99BE51011FA1D01A00FF9727 /* XWComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWComponentView.h; sourceTree = "<group>"; };
+		99BE51021FA1D01A00FF9727 /* XWComponentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWComponentView.m; sourceTree = "<group>"; };
+		99BE51031FA1D01A00FF9727 /* XWDecorationViewClear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWDecorationViewClear.h; sourceTree = "<group>"; };
+		99BE51041FA1D01A00FF9727 /* XWDecorationViewClear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWDecorationViewClear.m; sourceTree = "<group>"; };
+		99BE51051FA1D01A00FF9727 /* XWHeaderReuseDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWHeaderReuseDataBase.h; sourceTree = "<group>"; };
+		99BE51061FA1D01A00FF9727 /* XWHeaderReuseDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWHeaderReuseDataBase.m; sourceTree = "<group>"; };
+		99BE51071FA1D01A00FF9727 /* XWReuseDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWReuseDataBase.h; sourceTree = "<group>"; };
+		99BE51081FA1D01A00FF9727 /* XWReuseDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWReuseDataBase.m; sourceTree = "<group>"; };
+		99BE51171FA1D1B900FF9727 /* FliterMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FliterMenu.h; sourceTree = "<group>"; };
+		99BE51181FA1D1B900FF9727 /* FliterMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FliterMenu.m; sourceTree = "<group>"; };
+		99BE511B1FA1DD4B00FF9727 /* UIView+XWCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XWCorner.h"; sourceTree = "<group>"; };
+		99BE511C1FA1DD4B00FF9727 /* UIView+XWCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XWCorner.m"; sourceTree = "<group>"; };
+		99BE511D1FA1DD4B00FF9727 /* UIView+XWExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XWExt.h"; sourceTree = "<group>"; };
+		99BE511E1FA1DD4B00FF9727 /* UIView+XWExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XWExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +186,7 @@
 				9930BA621F9EE20F00BD9712 /* Models */,
 				9930BA611F9EE20300BD9712 /* Controllers */,
 				9930BA601F9EE1F700BD9712 /* Views */,
+				99BE51191FA1DCFD00FF9727 /* Expand */,
 				9930BA7C1F9F2C1A00BD9712 /* Vendor */,
 				9930BA5F1F9EE00B00BD9712 /* PrefixHeader.pch */,
 				9930B9F81F9ED5F100BD9712 /* AppDelegate.h */,
@@ -215,10 +257,7 @@
 		9930BA781F9F26FD00BD9712 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				9930BA741F9F12F900BD9712 /* FliterMenu.h */,
-				9930BA751F9F12F900BD9712 /* FliterMenu.m */,
-				9930BA791F9F274E00BD9712 /* FilterMenuCell.h */,
-				9930BA7A1F9F274E00BD9712 /* FilterMenuCell.m */,
+				99BE51161FA1D1B900FF9727 /* Project_Menu */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -226,8 +265,70 @@
 		9930BA7C1F9F2C1A00BD9712 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				99BE50EE1FA1D01A00FF9727 /* XWComponent */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		99BE50EE1FA1D01A00FF9727 /* XWComponent */ = {
+			isa = PBXGroup;
+			children = (
+				99BE50EF1FA1D01A00FF9727 /* XWCollectionReusableView.h */,
+				99BE50F01FA1D01A00FF9727 /* XWCollectionReusableView.m */,
+				99BE50F11FA1D01A00FF9727 /* XWCollectionView.h */,
+				99BE50F21FA1D01A00FF9727 /* XWCollectionView.m */,
+				99BE50F31FA1D01A00FF9727 /* XWCollectionViewCell.h */,
+				99BE50F41FA1D01A00FF9727 /* XWCollectionViewCell.m */,
+				99BE50F51FA1D01A00FF9727 /* XWCollectionViewFlowLayout.h */,
+				99BE50F61FA1D01A00FF9727 /* XWCollectionViewFlowLayout.m */,
+				99BE50F71FA1D01A00FF9727 /* XWCollectionViewFooterClear.h */,
+				99BE50F81FA1D01A00FF9727 /* XWCollectionViewFooterClear.m */,
+				99BE50F91FA1D01A00FF9727 /* XWCollectionViewFooterNoneData.h */,
+				99BE50FA1FA1D01A00FF9727 /* XWCollectionViewFooterNoneData.m */,
+				99BE50FB1FA1D01A00FF9727 /* XWCollectionviewHeaderClear.h */,
+				99BE50FC1FA1D01A00FF9727 /* XWCollectionviewHeaderClear.m */,
+				99BE50FD1FA1D01A00FF9727 /* XWCollectionViewHeaderNoneData.h */,
+				99BE50FE1FA1D01A00FF9727 /* XWCollectionViewHeaderNoneData.m */,
+				99BE50FF1FA1D01A00FF9727 /* XWComponentBase.h */,
+				99BE51001FA1D01A00FF9727 /* XWComponentBase.m */,
+				99BE51011FA1D01A00FF9727 /* XWComponentView.h */,
+				99BE51021FA1D01A00FF9727 /* XWComponentView.m */,
+				99BE51031FA1D01A00FF9727 /* XWDecorationViewClear.h */,
+				99BE51041FA1D01A00FF9727 /* XWDecorationViewClear.m */,
+				99BE51051FA1D01A00FF9727 /* XWHeaderReuseDataBase.h */,
+				99BE51061FA1D01A00FF9727 /* XWHeaderReuseDataBase.m */,
+				99BE51071FA1D01A00FF9727 /* XWReuseDataBase.h */,
+				99BE51081FA1D01A00FF9727 /* XWReuseDataBase.m */,
+			);
+			path = XWComponent;
+			sourceTree = "<group>";
+		};
+		99BE51161FA1D1B900FF9727 /* Project_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				99BE51171FA1D1B900FF9727 /* FliterMenu.h */,
+				99BE51181FA1D1B900FF9727 /* FliterMenu.m */,
+			);
+			path = Project_Menu;
+			sourceTree = "<group>";
+		};
+		99BE51191FA1DCFD00FF9727 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				99BE511A1FA1DD4B00FF9727 /* UIView */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		99BE511A1FA1DD4B00FF9727 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				99BE511B1FA1DD4B00FF9727 /* UIView+XWCorner.h */,
+				99BE511C1FA1DD4B00FF9727 /* UIView+XWCorner.m */,
+				99BE511D1FA1DD4B00FF9727 /* UIView+XWExt.h */,
+				99BE511E1FA1DD4B00FF9727 /* UIView+XWExt.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,10 +550,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9930BA7B1F9F274E00BD9712 /* FilterMenuCell.m in Sources */,
+				99BE51091FA1D08F00FF9727 /* XWCollectionReusableView.m in Sources */,
+				99BE510A1FA1D09100FF9727 /* XWCollectionView.m in Sources */,
 				9930BA701F9F0E8500BD9712 /* BaseNavigationController.m in Sources */,
+				99BE510C1FA1D09700FF9727 /* XWCollectionViewFlowLayout.m in Sources */,
+				99BE511F1FA1DF8F00FF9727 /* UIView+XWExt.m in Sources */,
+				99BE51201FA1DF9100FF9727 /* UIView+XWCorner.m in Sources */,
+				99BE510B1FA1D09400FF9727 /* XWCollectionViewCell.m in Sources */,
+				99BE510D1FA1D09B00FF9727 /* XWCollectionViewFooterClear.m in Sources */,
+				99BE510F1FA1D09E00FF9727 /* XWCollectionviewHeaderClear.m in Sources */,
+				99BE51101FA1D09F00FF9727 /* XWCollectionViewHeaderNoneData.m in Sources */,
 				9930BA081F9ED5F100BD9712 /* main.m in Sources */,
-				9930BA761F9F12F900BD9712 /* FliterMenu.m in Sources */,
+				99BE51111FA1D0A000FF9727 /* XWComponentBase.m in Sources */,
+				99BE51121FA1D0A200FF9727 /* XWComponentView.m in Sources */,
+				99BE51131FA1D0A300FF9727 /* XWDecorationViewClear.m in Sources */,
+				99BE51151FA1D0A500FF9727 /* XWReuseDataBase.m in Sources */,
+				99BE51141FA1D0A400FF9727 /* XWHeaderReuseDataBase.m in Sources */,
+				99BE510E1FA1D09C00FF9727 /* XWCollectionViewFooterNoneData.m in Sources */,
 				9930BA6D1F9F0E5C00BD9712 /* BaseViewController.m in Sources */,
 				9930B9FA1F9ED5F100BD9712 /* AppDelegate.m in Sources */,
 				9930BA731F9F0F5400BD9712 /* Project_RootViewController.m in Sources */,
